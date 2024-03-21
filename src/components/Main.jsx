@@ -12,10 +12,10 @@ const Main = () => {
     <div id='main'>
       <img
         className='w-full h-screen object-cover '
-        src='https://images.unsplash.com/photo-1543357480-c60d40007a3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'
+        src='src/assets/pexels-cottonbro-studio-4709286.jpg'
         alt=''
       />
-      <div className='w-full h-screen absolute top-0 left-0 bg-black/50'>
+      <div className='w-full h-screen absolute top-0 left-0 bg-black/80'>
         <div className='max-w-[700px] m-auto h-full flex flex-col justify-center lg:items-start items-center'>
           <h1 className='sm:text-5xl text-4xl front-bold text-white'>
             I'm Rishab Ubaid Ismail 
@@ -24,12 +24,12 @@ const Main = () => {
             I'm a
             <TypeAnimation
               sequence={[
-                'Developer', // Types 'One'
-                2000, // Waits 1s
-                'Coder', // Deletes 'One' and types 'Two'
-                2000, // Waits 2s
-                'Tech Enthusiast', // Deletes 'One' and types 'Two'
-                2000, // Waits 2s
+                'Developer', 
+                2000,  
+                'Coder',  
+                2000, 
+                'Tech Enthusiast',
+                2000, 
               ]}
               wrapper='div'
               cursor={true}

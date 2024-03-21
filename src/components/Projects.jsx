@@ -1,9 +1,9 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
 import propertyImg from '../assets/property.jpg';
-import driveImg from '../assets/drive.jpg';
-import beachesImg from '../assets/beaches.jpg';
-import bestEatsImg from '../assets/bestEats.jpg';
+import driveImg from '../assets/property.jpg';
+import beachesImg from '../assets/property.jpg';
+import bestEatsImg from '../assets/property.jpg';
 
 const Projects = () => {
   return (
@@ -15,10 +15,10 @@ const Projects = () => {
         Welcome to my portfolio project showcase! Here you'll find a curated collection of my most notable works, spanning various domains and showcasing my skills and expertise. Each project is a testament to my dedication, creativity, and problem-solving abilities. Feel free to explore and get a glimpse into my professional journey.
       </p>
       <div className='grid sm:grid-cols-2 gap-12'>
-        <ProjectItem img={driveImg} title='Drive App' />
-        <ProjectItem img={propertyImg} title='Property App' />
-        <ProjectItem img={beachesImg} title='Beaches App' />
-        <ProjectItem img={bestEatsImg} title='BestEats App' />
+        <ProjectItem img={driveImg} title='project 1' />
+        <ProjectItem img={propertyImg} title='Project 2' />
+        <ProjectItem img={beachesImg} title='project 3' />
+        <ProjectItem img={bestEatsImg} title='project 4' />
       </div>
     </div>
   );
