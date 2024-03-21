@@ -12,7 +12,7 @@ const Main = () => {
     <div id='main'>
       <img
         className='w-full h-screen object-cover '
-        src='src/assets/pexels-cottonbro-studio-4709286.jpg'
+        src='https://images.pexels.com/photos/4709289/pexels-photo-4709289.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
         alt=''
       />
       <div className='w-full h-screen absolute top-0 left-0 bg-black/80'>
