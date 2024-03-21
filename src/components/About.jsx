@@ -22,7 +22,7 @@ const About = () => {
     <section className="bg-secondery text-black px-5 py-32" id="about">
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="about-info">
-          <h2 className="sm:text-5xl text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">
+          <h2 className="sm:text-5xl pl-05 text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">
             About Me
           </h2>
 
@@ -51,7 +51,7 @@ const About = () => {
 
 
         <div className="flex flex-row p-10">
-        <h2 className="sm:text-5xl text-4xl font-bold mb-5 w-[180px]">
+        <h2 className="pl-05 sm:text-5xl text-4xl font-bold mb-5 w-[180px]">
             skill:
           </h2>
           <div className="flex-col">
